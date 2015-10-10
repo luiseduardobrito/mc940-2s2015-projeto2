@@ -11,13 +11,3 @@ Este documento é um relatório do segundo trabalho prático da disciplina de Pr
 
 
 **Palavras-Chave**: Processamento e Análise de Imagens Digitais, GNU, Octave.
-
-### Executando as soluções
-
-Todas as souções foram desenvolvidas em ambiente Mac OSX usando o IntelliJ IDEA. Cada uma dela se encontra em uma estrutura de pastas organizada, com arquivos individuais de execução em shell.
-
- - [**Problema 1**: Combinação de imagens](./ex1)
- - [**Problema 2**: Planos de bits](./ex2)
- - [**Problema 3**: Comparação entre imagens](./ex3)
- - [**Problema 4**: Filtragem](./ex4)
- - [**Problema 5**: Mosaicos](./ex5)
