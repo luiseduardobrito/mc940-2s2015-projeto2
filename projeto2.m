@@ -1,4 +1,4 @@
-#!/usr/local/bin/octave -q
+#!/usr/local/bin/octave -q --persist
 
 pkg load image;
 
@@ -44,5 +44,5 @@ endfor
 disp("Loaded all diffs");
 
 plsize = uint64(size(diffs)(2))
-pl = plot(cell2mat(diffs)(1,:));
-imwrite(pl, "result/diffs.png");
+plot(cell2mat(diffs)(1,:));
+%saveas(plgraph, "result/diffs.jpg");
